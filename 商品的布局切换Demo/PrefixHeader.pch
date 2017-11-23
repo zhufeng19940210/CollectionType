@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  商品的布局切换Demo
+//
+//  Created by bailing on 2017/11/23.
+//  Copyright © 2017年 bailing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Masonry.h>
+#endif /* PrefixHeader_pch */

@@ -13,6 +13,9 @@
 		BFB11E471FC78E5400738969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB11E461FC78E5400738969 /* Assets.xcassets */; };
 		BFB11E4A1FC78E5400738969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB11E481FC78E5400738969 /* LaunchScreen.storyboard */; };
 		BFB11E4D1FC78E5400738969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E4C1FC78E5400738969 /* main.m */; };
+		BFB11E5C1FC7904F00738969 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E5B1FC7904F00738969 /* HomeListViewController.m */; };
+		BFB11E5F1FC7906D00738969 /* LongColletionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E5E1FC7906D00738969 /* LongColletionCell.m */; };
+		BFB11E621FC7907B00738969 /* NormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */; };
 		D2696FF05F616443BD0D473B /* libPods-商品的布局切换Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACDDF14310DE4251C26436C /* libPods-商品的布局切换Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,13 @@
 		BFB11E491FC78E5400738969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB11E4B1FC78E5400738969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB11E4C1FC78E5400738969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB11E531FC7900F00738969 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFB11E5A1FC7904F00738969 /* HomeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListViewController.h; sourceTree = "<group>"; };
+		BFB11E5B1FC7904F00738969 /* HomeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListViewController.m; sourceTree = "<group>"; };
+		BFB11E5D1FC7906D00738969 /* LongColletionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongColletionCell.h; sourceTree = "<group>"; };
+		BFB11E5E1FC7906D00738969 /* LongColletionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongColletionCell.m; sourceTree = "<group>"; };
+		BFB11E601FC7907B00738969 /* NormalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewCell.h; sourceTree = "<group>"; };
+		BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewCell.m; sourceTree = "<group>"; };
 		E54CC45A37C55B5170A167E6 /* Pods-商品的布局切换Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-商品的布局切换Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-商品的布局切换Demo/Pods-商品的布局切换Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +92,7 @@
 		BFB11E3C1FC78E5400738969 /* 商品的布局切换Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BFB11E541FC7903E00738969 /* Classes */,
 				BFB11E3D1FC78E5400738969 /* AppDelegate.h */,
 				BFB11E3E1FC78E5400738969 /* AppDelegate.m */,
 				BFB11E401FC78E5400738969 /* ViewController.h */,
@@ -91,8 +102,62 @@
 				BFB11E481FC78E5400738969 /* LaunchScreen.storyboard */,
 				BFB11E4B1FC78E5400738969 /* Info.plist */,
 				BFB11E4C1FC78E5400738969 /* main.m */,
+				BFB11E531FC7900F00738969 /* PrefixHeader.pch */,
 			);
 			path = "商品的布局切换Demo";
+			sourceTree = "<group>";
+		};
+		BFB11E541FC7903E00738969 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFB11E551FC7903E00738969 /* Home */,
+				BFB11E591FC7903F00738969 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFB11E551FC7903E00738969 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFB11E561FC7903E00738969 /* Controller */,
+				BFB11E571FC7903E00738969 /* Model */,
+				BFB11E581FC7903F00738969 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFB11E561FC7903E00738969 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFB11E5A1FC7904F00738969 /* HomeListViewController.h */,
+				BFB11E5B1FC7904F00738969 /* HomeListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFB11E571FC7903E00738969 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFB11E581FC7903F00738969 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFB11E5D1FC7906D00738969 /* LongColletionCell.h */,
+				BFB11E5E1FC7906D00738969 /* LongColletionCell.m */,
+				BFB11E601FC7907B00738969 /* NormalCollectionViewCell.h */,
+				BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFB11E591FC7903F00738969 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB11E421FC78E5400738969 /* ViewController.m in Sources */,
+				BFB11E621FC7907B00738969 /* NormalCollectionViewCell.m in Sources */,
 				BFB11E4D1FC78E5400738969 /* main.m in Sources */,
 				BFB11E3F1FC78E5400738969 /* AppDelegate.m in Sources */,
+				BFB11E5F1FC7906D00738969 /* LongColletionCell.m in Sources */,
+				BFB11E5C1FC7904F00738969 /* HomeListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +354,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "/Users/bailing/Desktop/CollectionType/商品的布局切换Demo/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -339,6 +408,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "/Users/bailing/Desktop/CollectionType/商品的布局切换Demo/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -359,11 +429,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = "/Users/bailing/Desktop/CollectionType/商品的布局切换Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "商品的布局切换Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bailing.-------Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -374,11 +446,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = "/Users/bailing/Desktop/CollectionType/商品的布局切换Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "商品的布局切换Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bailing.-------Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
