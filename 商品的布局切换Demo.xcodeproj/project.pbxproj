@@ -20,6 +20,18 @@
 		BFB11E681FC7A65E00738969 /* HomeFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E671FC7A65E00738969 /* HomeFlowViewController.m */; };
 		BFB11E6B1FC7A78B00738969 /* HomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E6A1FC7A78B00738969 /* HomeHeader.m */; };
 		BFB11E6E1FC7A83D00738969 /* HomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E6D1FC7A83D00738969 /* HomeFooterView.m */; };
+		BFB3CA331FC88A01004B8F72 /* EditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA321FC88A01004B8F72 /* EditModel.m */; };
+		BFB3CA3F1FC88B73004B8F72 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA3E1FC88B73004B8F72 /* UIColor+Additions.m */; };
+		BFB3CA491FC8C94E004B8F72 /* SortCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA431FC8C94D004B8F72 /* SortCollectionReusableView.m */; };
+		BFB3CA4A1FC8C94E004B8F72 /* SortBasicCollectionCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA461FC8C94E004B8F72 /* SortBasicCollectionCellLayout.m */; };
+		BFB3CA4B1FC8C94E004B8F72 /* SortCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA471FC8C94E004B8F72 /* SortCollectionViewCell.m */; };
+		BFB3CA4E1FC8C984004B8F72 /* GameClassifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA4D1FC8C984004B8F72 /* GameClassifyModel.m */; };
+		BFB3CA511FC8C98E004B8F72 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA501FC8C98E004B8F72 /* MainViewController.m */; };
+		BFB3CA581FC8CCC5004B8F72 /* FlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA571FC8CCC5004B8F72 /* FlowViewController.m */; };
+		BFB3CA5B1FC8CCE6004B8F72 /* FlowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA5A1FC8CCE6004B8F72 /* FlowModel.m */; };
+		BFB3CA5E1FC8CD98004B8F72 /* FlowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA5D1FC8CD98004B8F72 /* FlowCollectionViewCell.m */; };
+		BFB3CA611FC8D14B004B8F72 /* FlowWaterViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3CA601FC8D14B004B8F72 /* FlowWaterViewLayout.m */; };
+		BFB3CA631FC8D89C004B8F72 /* ShopList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB3CA621FC8D89C004B8F72 /* ShopList.plist */; };
 		D2696FF05F616443BD0D473B /* libPods-商品的布局切换Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACDDF14310DE4251C26436C /* libPods-商品的布局切换Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +63,29 @@
 		BFB11E6A1FC7A78B00738969 /* HomeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeader.m; sourceTree = "<group>"; };
 		BFB11E6C1FC7A83D00738969 /* HomeFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFooterView.h; sourceTree = "<group>"; };
 		BFB11E6D1FC7A83D00738969 /* HomeFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFooterView.m; sourceTree = "<group>"; };
+		BFB3CA311FC88A01004B8F72 /* EditModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditModel.h; sourceTree = "<group>"; };
+		BFB3CA321FC88A01004B8F72 /* EditModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditModel.m; sourceTree = "<group>"; };
+		BFB3CA3D1FC88B73004B8F72 /* UIColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		BFB3CA3E1FC88B73004B8F72 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		BFB3CA431FC8C94D004B8F72 /* SortCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortCollectionReusableView.m; sourceTree = "<group>"; };
+		BFB3CA441FC8C94D004B8F72 /* SortCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortCollectionReusableView.h; sourceTree = "<group>"; };
+		BFB3CA451FC8C94D004B8F72 /* SortBasicCollectionCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortBasicCollectionCellLayout.h; sourceTree = "<group>"; };
+		BFB3CA461FC8C94E004B8F72 /* SortBasicCollectionCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortBasicCollectionCellLayout.m; sourceTree = "<group>"; };
+		BFB3CA471FC8C94E004B8F72 /* SortCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortCollectionViewCell.m; sourceTree = "<group>"; };
+		BFB3CA481FC8C94E004B8F72 /* SortCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortCollectionViewCell.h; sourceTree = "<group>"; };
+		BFB3CA4C1FC8C984004B8F72 /* GameClassifyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameClassifyModel.h; sourceTree = "<group>"; };
+		BFB3CA4D1FC8C984004B8F72 /* GameClassifyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameClassifyModel.m; sourceTree = "<group>"; };
+		BFB3CA4F1FC8C98D004B8F72 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BFB3CA501FC8C98E004B8F72 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BFB3CA561FC8CCC5004B8F72 /* FlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowViewController.h; sourceTree = "<group>"; };
+		BFB3CA571FC8CCC5004B8F72 /* FlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowViewController.m; sourceTree = "<group>"; };
+		BFB3CA591FC8CCE6004B8F72 /* FlowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowModel.h; sourceTree = "<group>"; };
+		BFB3CA5A1FC8CCE6004B8F72 /* FlowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowModel.m; sourceTree = "<group>"; };
+		BFB3CA5C1FC8CD98004B8F72 /* FlowCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowCollectionViewCell.h; sourceTree = "<group>"; };
+		BFB3CA5D1FC8CD98004B8F72 /* FlowCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowCollectionViewCell.m; sourceTree = "<group>"; };
+		BFB3CA5F1FC8D14B004B8F72 /* FlowWaterViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowWaterViewLayout.h; sourceTree = "<group>"; };
+		BFB3CA601FC8D14B004B8F72 /* FlowWaterViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowWaterViewLayout.m; sourceTree = "<group>"; };
+		BFB3CA621FC8D89C004B8F72 /* ShopList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopList.plist; sourceTree = "<group>"; };
 		E54CC45A37C55B5170A167E6 /* Pods-商品的布局切换Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-商品的布局切换Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-商品的布局切换Demo/Pods-商品的布局切换Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +139,7 @@
 		BFB11E3C1FC78E5400738969 /* 商品的布局切换Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BFB3CA621FC8D89C004B8F72 /* ShopList.plist */,
 				BFB11E541FC7903E00738969 /* Classes */,
 				BFB11E3D1FC78E5400738969 /* AppDelegate.h */,
 				BFB11E3E1FC78E5400738969 /* AppDelegate.m */,
@@ -122,6 +158,8 @@
 		BFB11E541FC7903E00738969 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BFB3CA521FC8CCB4004B8F72 /* Flow */,
+				BFB3CA2A1FC889A5004B8F72 /* Edit */,
 				BFB11E551FC7903E00738969 /* Home */,
 				BFB11E591FC7903F00738969 /* Tool */,
 			);
@@ -176,8 +214,92 @@
 		BFB11E591FC7903F00738969 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BFB3CA3D1FC88B73004B8F72 /* UIColor+Additions.h */,
+				BFB3CA3E1FC88B73004B8F72 /* UIColor+Additions.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		BFB3CA2A1FC889A5004B8F72 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA2B1FC889A5004B8F72 /* Controller */,
+				BFB3CA2C1FC889A5004B8F72 /* Model */,
+				BFB3CA2D1FC889A5004B8F72 /* View */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		BFB3CA2B1FC889A5004B8F72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA4F1FC8C98D004B8F72 /* MainViewController.h */,
+				BFB3CA501FC8C98E004B8F72 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFB3CA2C1FC889A5004B8F72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA311FC88A01004B8F72 /* EditModel.h */,
+				BFB3CA321FC88A01004B8F72 /* EditModel.m */,
+				BFB3CA4C1FC8C984004B8F72 /* GameClassifyModel.h */,
+				BFB3CA4D1FC8C984004B8F72 /* GameClassifyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFB3CA2D1FC889A5004B8F72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA451FC8C94D004B8F72 /* SortBasicCollectionCellLayout.h */,
+				BFB3CA461FC8C94E004B8F72 /* SortBasicCollectionCellLayout.m */,
+				BFB3CA441FC8C94D004B8F72 /* SortCollectionReusableView.h */,
+				BFB3CA431FC8C94D004B8F72 /* SortCollectionReusableView.m */,
+				BFB3CA481FC8C94E004B8F72 /* SortCollectionViewCell.h */,
+				BFB3CA471FC8C94E004B8F72 /* SortCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFB3CA521FC8CCB4004B8F72 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA531FC8CCB4004B8F72 /* Coontroller */,
+				BFB3CA541FC8CCB4004B8F72 /* Model */,
+				BFB3CA551FC8CCB4004B8F72 /* View */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		BFB3CA531FC8CCB4004B8F72 /* Coontroller */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA561FC8CCC5004B8F72 /* FlowViewController.h */,
+				BFB3CA571FC8CCC5004B8F72 /* FlowViewController.m */,
+			);
+			path = Coontroller;
+			sourceTree = "<group>";
+		};
+		BFB3CA541FC8CCB4004B8F72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA591FC8CCE6004B8F72 /* FlowModel.h */,
+				BFB3CA5A1FC8CCE6004B8F72 /* FlowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFB3CA551FC8CCB4004B8F72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFB3CA5C1FC8CD98004B8F72 /* FlowCollectionViewCell.h */,
+				BFB3CA5D1FC8CD98004B8F72 /* FlowCollectionViewCell.m */,
+				BFB3CA5F1FC8D14B004B8F72 /* FlowWaterViewLayout.h */,
+				BFB3CA601FC8D14B004B8F72 /* FlowWaterViewLayout.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +365,7 @@
 			files = (
 				BFB11E4A1FC78E5400738969 /* LaunchScreen.storyboard in Resources */,
 				BFB11E471FC78E5400738969 /* Assets.xcassets in Resources */,
+				BFB3CA631FC8D89C004B8F72 /* ShopList.plist in Resources */,
 				BFB11E451FC78E5400738969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,10 +428,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB3CA491FC8C94E004B8F72 /* SortCollectionReusableView.m in Sources */,
+				BFB3CA4B1FC8C94E004B8F72 /* SortCollectionViewCell.m in Sources */,
+				BFB3CA581FC8CCC5004B8F72 /* FlowViewController.m in Sources */,
 				BFB11E6E1FC7A83D00738969 /* HomeFooterView.m in Sources */,
 				BFB11E421FC78E5400738969 /* ViewController.m in Sources */,
 				BFB11E621FC7907B00738969 /* NormalCollectionViewCell.m in Sources */,
+				BFB3CA5B1FC8CCE6004B8F72 /* FlowModel.m in Sources */,
+				BFB3CA4A1FC8C94E004B8F72 /* SortBasicCollectionCellLayout.m in Sources */,
+				BFB3CA3F1FC88B73004B8F72 /* UIColor+Additions.m in Sources */,
+				BFB3CA511FC8C98E004B8F72 /* MainViewController.m in Sources */,
+				BFB3CA5E1FC8CD98004B8F72 /* FlowCollectionViewCell.m in Sources */,
+				BFB3CA4E1FC8C984004B8F72 /* GameClassifyModel.m in Sources */,
+				BFB3CA611FC8D14B004B8F72 /* FlowWaterViewLayout.m in Sources */,
 				BFB11E4D1FC78E5400738969 /* main.m in Sources */,
+				BFB3CA331FC88A01004B8F72 /* EditModel.m in Sources */,
 				BFB11E681FC7A65E00738969 /* HomeFlowViewController.m in Sources */,
 				BFB11E651FC7A27A00738969 /* HomeCollectionViewController.m in Sources */,
 				BFB11E3F1FC78E5400738969 /* AppDelegate.m in Sources */,

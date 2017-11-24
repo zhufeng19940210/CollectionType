@@ -5,4 +5,7 @@ target '商品的布局切换Demo' do
   # use_frameworks!
   # Pods for 商品的布局切换Demo
   pod 'Masonry'
+  pod 'YYWebImage'
+  pod 'AFNetworking'
+  pod 'MJExtension'
 end

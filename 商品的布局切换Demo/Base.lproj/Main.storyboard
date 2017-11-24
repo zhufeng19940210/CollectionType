@@ -39,14 +39,23 @@
                                     <action selector="onClickCollectFlowBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hfj-fp-sCL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Arh-eC-NhS">
+                                <rect key="frame" x="99" y="318" width="178" height="30"/>
+                                <state key="normal" title="CollectinoView的长按编辑"/>
+                                <connections>
+                                    <action selector="onClickEditCollectionViewBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TUU-wY-Sfl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iLd-h2-9YD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="1xx-XA-6S9"/>
+                            <constraint firstItem="Arh-eC-NhS" firstAttribute="top" secondItem="RLJ-TW-WWk" secondAttribute="bottom" constant="33" id="2bA-GK-ZcE"/>
                             <constraint firstItem="RLJ-TW-WWk" firstAttribute="top" secondItem="DnE-yV-VCR" secondAttribute="bottom" constant="32" id="3EG-yF-KBb"/>
                             <constraint firstItem="DnE-yV-VCR" firstAttribute="top" secondItem="iLd-h2-9YD" secondAttribute="bottom" constant="34" id="I1C-cC-amq"/>
                             <constraint firstItem="RLJ-TW-WWk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dZX-Cf-Uve"/>
                             <constraint firstItem="DnE-yV-VCR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXg-Vd-5j9"/>
+                            <constraint firstItem="Arh-eC-NhS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hod-9C-4d7"/>
                             <constraint firstItem="iLd-h2-9YD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v6Y-jc-0Jh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

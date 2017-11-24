@@ -10,13 +10,18 @@
 #import "HomeListViewController.h"
 #import "HomeCollectionViewController.h"
 #import "HomeFlowViewController.h"
+#import "MainViewController.h"
+#import "FlowViewController.h"
 @interface ViewController ()
 @end
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+//Edit的东西
+- (IBAction)onClickEditCollectionViewBtn:(UIButton *)sender {
+    MainViewController *editVc = [[MainViewController alloc]init];
+    [self.navigationController pushViewController:editVc animated:YES];
 }
 //LIST
 - (IBAction)onClickChangeTypeBtn:(UIButton *)sender {
@@ -30,7 +35,7 @@
 }
 //FLOW
 - (IBAction)onClickCollectFlowBtn:(id)sender {
-    HomeFlowViewController *flowVc = [[HomeFlowViewController alloc]init];
+    FlowViewController *flowVc = [[FlowViewController alloc]init];
     [self.navigationController pushViewController:flowVc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
