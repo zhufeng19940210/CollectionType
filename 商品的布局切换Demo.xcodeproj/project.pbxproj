@@ -16,6 +16,10 @@
 		BFB11E5C1FC7904F00738969 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E5B1FC7904F00738969 /* HomeListViewController.m */; };
 		BFB11E5F1FC7906D00738969 /* LongColletionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E5E1FC7906D00738969 /* LongColletionCell.m */; };
 		BFB11E621FC7907B00738969 /* NormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */; };
+		BFB11E651FC7A27A00738969 /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E641FC7A27A00738969 /* HomeCollectionViewController.m */; };
+		BFB11E681FC7A65E00738969 /* HomeFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E671FC7A65E00738969 /* HomeFlowViewController.m */; };
+		BFB11E6B1FC7A78B00738969 /* HomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E6A1FC7A78B00738969 /* HomeHeader.m */; };
+		BFB11E6E1FC7A83D00738969 /* HomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB11E6D1FC7A83D00738969 /* HomeFooterView.m */; };
 		D2696FF05F616443BD0D473B /* libPods-商品的布局切换Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACDDF14310DE4251C26436C /* libPods-商品的布局切换Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,14 @@
 		BFB11E5E1FC7906D00738969 /* LongColletionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongColletionCell.m; sourceTree = "<group>"; };
 		BFB11E601FC7907B00738969 /* NormalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalCollectionViewCell.h; sourceTree = "<group>"; };
 		BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalCollectionViewCell.m; sourceTree = "<group>"; };
+		BFB11E631FC7A27A00738969 /* HomeCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		BFB11E641FC7A27A00738969 /* HomeCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		BFB11E661FC7A65E00738969 /* HomeFlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFlowViewController.h; sourceTree = "<group>"; };
+		BFB11E671FC7A65E00738969 /* HomeFlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFlowViewController.m; sourceTree = "<group>"; };
+		BFB11E691FC7A78B00738969 /* HomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeader.h; sourceTree = "<group>"; };
+		BFB11E6A1FC7A78B00738969 /* HomeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHeader.m; sourceTree = "<group>"; };
+		BFB11E6C1FC7A83D00738969 /* HomeFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFooterView.h; sourceTree = "<group>"; };
+		BFB11E6D1FC7A83D00738969 /* HomeFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFooterView.m; sourceTree = "<group>"; };
 		E54CC45A37C55B5170A167E6 /* Pods-商品的布局切换Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-商品的布局切换Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-商品的布局切换Demo/Pods-商品的布局切换Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +143,10 @@
 			children = (
 				BFB11E5A1FC7904F00738969 /* HomeListViewController.h */,
 				BFB11E5B1FC7904F00738969 /* HomeListViewController.m */,
+				BFB11E631FC7A27A00738969 /* HomeCollectionViewController.h */,
+				BFB11E641FC7A27A00738969 /* HomeCollectionViewController.m */,
+				BFB11E661FC7A65E00738969 /* HomeFlowViewController.h */,
+				BFB11E671FC7A65E00738969 /* HomeFlowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -149,6 +165,10 @@
 				BFB11E5E1FC7906D00738969 /* LongColletionCell.m */,
 				BFB11E601FC7907B00738969 /* NormalCollectionViewCell.h */,
 				BFB11E611FC7907B00738969 /* NormalCollectionViewCell.m */,
+				BFB11E691FC7A78B00738969 /* HomeHeader.h */,
+				BFB11E6A1FC7A78B00738969 /* HomeHeader.m */,
+				BFB11E6C1FC7A83D00738969 /* HomeFooterView.h */,
+				BFB11E6D1FC7A83D00738969 /* HomeFooterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,12 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB11E6E1FC7A83D00738969 /* HomeFooterView.m in Sources */,
 				BFB11E421FC78E5400738969 /* ViewController.m in Sources */,
 				BFB11E621FC7907B00738969 /* NormalCollectionViewCell.m in Sources */,
 				BFB11E4D1FC78E5400738969 /* main.m in Sources */,
+				BFB11E681FC7A65E00738969 /* HomeFlowViewController.m in Sources */,
+				BFB11E651FC7A27A00738969 /* HomeCollectionViewController.m in Sources */,
 				BFB11E3F1FC78E5400738969 /* AppDelegate.m in Sources */,
 				BFB11E5F1FC7906D00738969 /* LongColletionCell.m in Sources */,
 				BFB11E5C1FC7904F00738969 /* HomeListViewController.m in Sources */,
+				BFB11E6B1FC7A78B00738969 /* HomeHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
